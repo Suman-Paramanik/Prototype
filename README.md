@@ -1,75 +1,36 @@
-# Prototype
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.hero {
-    height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    https: blue;
-}
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Prototype</title>
+    <link rel="stylesheet" href="s.css">
+</head>
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px;
-}
+<body>
 
-.logo {
-    font-size: 24px;
-}
+    <header class="hero">
 
-.logo span {
-    color: #00c3ff;
-}
 
-nav ul {
-    list-style: none;
-}
+        <nav>
+            <h2 class="logo">SOU<span>RAV GARU</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <img src="" alt="">
+            <h1>I'm sourav Garu</h1>
+            <br>
+            <p>I'am a ECE student from Haldia Institue Of Technology</p>
+        </div>
 
-nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-}
+    </header>
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-}
+</body>
 
-nav ul li a:hover {
-    color: #00c3ff;
-}
-
-.hero-content {
-    height: calc(100vh - 80px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-content img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 4px solid #00c3ff;
-    margin-bottom: 20px;
-}
-
-.hero-content h1 {
-    font-size: 40px;
-}
-
-.hero-content p {
-    font-size: 18px;
-    color: #ccc;
-}
+</html>
